@@ -1,0 +1,58 @@
+body
+  background-color gainsboro
+  padding 20px
+  
+header
+    border-bottom 1px solid dimgray
+    margin-bottom 30px
+    text-align center
+    
+h1
+    font-size 32px
+    font-variant small-caps
+  
+section
+    text-align center
+    
+button
+    background-color pink
+    border 1px solid fuchsia
+    border-radius 5px
+    cursor pointer
+    display inline-box
+    padding 5px 15px
+    margin 2px
+    text-shadow 1px 1px rgba(255, 255, 255, 0.5)
+    transition background-color 300ms ease
+    &:hover
+        background-color yellow
+        border-color orange
+  
+main
+    margin auto
+    max-width 800px
+    
+    p
+        background-color white
+        border-radius 3px
+        box-shadow 0 0 3px rgba(0, 0, 0, 0.7)
+        line-height 1.5em
+        padding 10px
+        &:empty:before
+            color dimgray
+            content "Wciśnij przycisk *po lewej*, żeby zacząć…"
+        
+footer
+    border-top 1px solid silver
+    margin-top 50px
+    padding 10px 0
+    text-align center
+    
+    & p
+        margin 0.5em
+    
+    & a
+        color fuchsia
+        text-decoration none
+        &:hover
+            text-decoration underline
