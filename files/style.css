@@ -1,0 +1,62 @@
+body {
+  background-color: #dcdcdc;
+  padding: 20px;
+}
+header {
+  border-bottom: 1px solid #696969;
+  margin-bottom: 30px;
+  text-align: center;
+}
+h1 {
+  font-size: 32px;
+  font-variant: small-caps;
+}
+section {
+  text-align: center;
+}
+button {
+  background-color: #ffc0cb;
+  border: 1px solid #f0f;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-box;
+  padding: 5px 15px;
+  margin: 2px;
+  text-shadow: 1px 1px rgba(255,255,255,0.5);
+  transition: background-color 300ms ease;
+}
+button:hover {
+  background-color: #ff0;
+  border-color: #ffa500;
+}
+main {
+  margin: auto;
+  max-width: 800px;
+}
+main p {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.7);
+  line-height: 1.5em;
+  padding: 10px;
+}
+main p:empty:before {
+  color: #696969;
+  content: "Wciśnij przycisk *po lewej*, żeby zacząć…";
+}
+footer {
+  border-top: 1px solid #c0c0c0;
+  margin-top: 50px;
+  padding: 10px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0.5em;
+}
+footer a {
+  color: #f0f;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
